@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Laundry</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="header-container">
+            <!-- Logo -->
+            <a href="#" class="logo">
+                <img src="laundry.webp" alt="Logo laundry" class="logo-img" />
+                <div>
+                    <h1 class="logo-title"><span class="highlight"></span>Laundry</h1>
+                    <p class="logo-subtitle">Cuci bersih, wangi & cepat</p>
+                </div>
+            </a>
+
+            <!-- Navigation -->
+            <nav class="nav-menu">
+                <a href="indeks.html" class="nav-link">Home</a>
+                <a href="profile.html" class="nav-link">Profile</a>
+                <a href="layanan.html" class="nav-link">Layanan</a>
+                <a href="kontak.html" class="nav-link">Kontak</a>
+            </nav>
+        </div>
+    </header>
+
+
+ 
+  <h1>Form Jasa Laundry</h1>
+
+  <form action="" method="POST">
+    <label for="nama_pembeli">Nama Pemesan:</label>
+    <input type="text" id="nama_pembeli" name="nama_pembeli" required>
+
+    <label for="jenis_layanan">Jenis Layanan:</label>
+    <select id="jenis_layanan" name="jenis_layanan" required>
+      <option value="" disabled selected>Pilih Jenis Layanan</option>
+      <option value="Cepat">Cepat</option>
+      <option value="1 Hari">1 Hari</option>
+      <option value="3 Hari">3 Hari</option>
+    </select>
+
+    <label for="harga">Harga (Rp):</label>
+    <input type="number" id="harga" name="harga" required>
+
+    <label for="alamat">Alamat:</label>
+    <textarea id="alamat" name="alamat" rows="4" required></textarea>
+
+    <label for="no_telepon">No Telepon:</label>
+    <input type="number" id="no_telepon" name="no_telepon" required>
+
+    <label for="metode_pembayaran">Metode Pembayaran:</label>
+    <select id="metode_pembayaran" name="metode_pembayaran" required>
+      <option value="" disabled selected>Pilih Metode Pembayaran</option>
+      <option value="Dana">Dana</option>
+      <option value="Transfer Bank">Transfer Bank</option>
+      <option value="Bayar di Tempat">Bayar di Tempat</option>
+    </select>
+
+    <button type="submit" name="submit">Pesan Sekarang</button>
+  </form>
+
+  <div class="footer">
+    <p>&copy; 2023 Sweet Cookie. Semua hak cipta dilindungi.</p>
+    <p>Alamat: Jl. Raya No. 123, Jakarta</p>
+  </div>
+</body

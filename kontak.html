@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontak Laundry</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <header class="header">
+        <div class="header-container">
+            <!-- Logo -->
+            <a href="#" class="logo">
+                <img src="laundry.webp" alt="Logo laundry" class="logo-img" />
+                <div>
+                    <h1 class="logo-title"><span class="highlight"></span>Laundry</h1>
+                    <p class="logo-subtitle">Cuci bersih, wangi & cepat</p>
+                </div>
+            </a>
+
+            <!-- Navigation -->
+            <nav class="nav-menu">
+                <a href="indeks.html" class="nav-link">Home</a>
+                <a href="profile.html" class="nav-link">Profile</a>
+                <a href="layanan.html" class="nav-link">Layanan</a>
+                <a href="kontak.html" class="nav-link">Kontak</a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="contact-section">
+        <h2>Hubungi Kami</h2>
+        <p>Butuh bantuan? Isi form di bawah atau hubungi kami lewat telepon/email.</p>
+        <form id="contact-form">
+            <label for="name">Nama Anda</label>
+            <input type="text" id="name" name="name" placeholder="Nama lengkap" required>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="alamat@example.com" required>
+
+            <label for="message">Pesan</label>
+            <textarea id="message" name="message" rows="4" placeholder="Tuliskan pertanyaan atau pesan Anda..."
+                required></textarea>
+
+            <button type="submit">Kirim Pesan</button>
+            <p id="form-msg" class="hidden"></p>
+        </form>
+        <div class="alt-contact">
+            <p>Atau hubungi kami langsung:</p>
+            <p>📞 <a href="tel:+6281234567890">0812‑3456‑7890</a></p>
+            <p>✉ <a href="mailto:info@laundryku.com">info@laundryku.com</a></p>
+        </div>
+    </section>
+</body>
+
+</html>
